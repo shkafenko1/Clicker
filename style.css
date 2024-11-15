@@ -1,0 +1,14 @@
+body{ margin: 0; }
+
+header{
+    height: 3lh;
+    width: 100%;
+    background-color: black;
+}
+
+.counters{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+}
