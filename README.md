@@ -2,14 +2,15 @@ CLICKER BY SHKAFENKO
 
 key features:
 
-clickable character and background
-while click on character, income increases
+clickable character and background.
+while click on character, income increases.
 
-boost button, increases income with respect to multiplier
+boost button, increases income with respect to multiplier.
 
-characters, background store
-income depends on character
+characters, background store.
 
-instagram link
+income depends on character.
+
+instagram link.
 
 adaptive interface

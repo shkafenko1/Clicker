@@ -3,6 +3,8 @@ body{
     font-size:larger; 
     font-family:fantasy; 
     user-select: none;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 header{
@@ -68,14 +70,12 @@ header{
     font-size: 4em;
 }
 
-.h2{
-    font-family: fantasy;
-}
 
 .store-categories{
     justify-content: center;
     display: flex;
-    gap: 5lh;
+    gap: 4lh;
+    flex-wrap: wrap;
 }
 
 .characters, .wallpapers{
@@ -96,4 +96,20 @@ header{
     border-radius: 0.8lh;
     width: 6lh;
     height: auto;
+}
+
+.instagram{
+    align-content: center;
+    justify-content: center;
+}
+
+.insta-pic{
+    cursor: pointer;
+    border-radius: 1lh;
+    width: 4lh;
+    height: auto;
+}
+
+.item-text{
+    color: whitesmoke;
 }
