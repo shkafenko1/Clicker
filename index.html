@@ -3,26 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DoraClicker</title>
+    <title>Clicker</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
-<body>
+<body class="body">
     <header>
-        <div class="counters">
-            <div class="points">
-                <img src="pics/coin-svgrepo-com.svg" alt="points">
-                <div id = ptsCounter></div>
-            </div>
-            <div class="booster">
-                <img src="pics/speed-svgrepo-com.svg" alt="booster">
-                <p>BOOST 10</p>
-                <div id = ""></div>
-            </div>
-        </div>
+    <div class="booster">
+        <button class="booster-button">
+            <img src="pics/speed-svgrepo-com.svg" alt="booster" class="booster-pic">
+            <div class="boost-text"></div>
+        </button>
+    </div>
     </header>
     <main>
-
+        <div class="play-zone">
+            <div class="character">
+                <img src="pics/stewie.png" alt="character" class="character-pic">
+            </div>
+            <div class="pts-counter"></div>
+        </div>
+        <div class="store">
+            <div class="store-categories">
+                <div class="characters">
+                    <div class="stewie shop-item">
+                        <img src="pics/stewie-icon.jpg" alt="stewie" class="stewie-pic item-pic">
+                        <div class="stewie-text">Stewie</div>
+                    </div>
+                    <div class="peter shop-item">
+                        <img src="pics/question.jpg" alt="peter" class="peter-pic item-pic">
+                        <div class="peter-text">???</div>
+                    </div>
+                    <div class="cleveland shop-item">
+                        <img src="pics/question.jpg" alt="cleveland" class="cleveland-pic item-pic">
+                        <div class="cleveland-text">???</div>
+                    </div>          
+                </div>
+                <div class="wallpapers">
+                    <div class="wp-default shop-item">
+                        <img src="pics/default-icon.jpg" alt="default" class="wp-default-pic item-pic">
+                        <div class="wp-default-text">Default</div>
+                    </div>
+                    <div class="wp-krichev shop-item">
+                        <img src="pics/question.jpg" alt="krichev" class="wp-krichev-pic item-pic">
+                        <div class="wp-krichev-text">???</div>
+                    </div>
+                    <div class="wp-tehran shop-item">
+                        <img src="pics/question.jpg" alt="tehran" class="wp-tehran-pic item-pic">
+                        <div class="wp-tehran-text">???</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
 
